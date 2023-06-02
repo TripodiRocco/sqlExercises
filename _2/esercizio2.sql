@@ -1,3 +1,7 @@
+/*N.B: le tabelle create negli esercizi a venire cambieranno aspetto grafico a causa di malfunzionamenti
+nel sito sqlfiddle in fase di creazione delle query, che mi hanno portato ad utilizzare invece il sito dbfiddle */
+
+
 /* 1. Write insert statements to insert the following 5 ingredients */
 
 CREATE TABLE INGREDIENTS (
