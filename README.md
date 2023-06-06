@@ -10,7 +10,7 @@ _ = TO DO
 **<pre>X**   Esercizio 1     *(Create table)*
 **X**   Esercizio 2     *(Insert and Select)*
 **X**   Esercizio 3     *(Where)*
-**^**   Esercizio 4     *(Create Table As, Insert via query, Create View)*
+**X**   Esercizio 4     *(Create Table As, Insert via query, Create View)*
 **_**   Esercizio 5     *(Date, Timestamp, Select Functions)*
 **_**   Esercizio 6     *(Grouping By, Count, Sum)*
 **_**   Esercizio 7     *(Max, Min, Average, Having)*
