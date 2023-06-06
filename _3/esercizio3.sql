@@ -1,3 +1,6 @@
+/*N.B: In alcune tabelle create, i valori booleani true e false sono interpretati da dbfiffle come 1 e 0*/
+
+
 CREATE TABLE INGREDIENTS (
   NAME VARCHAR(255),
   PRICE DOUBLE,
@@ -46,42 +49,51 @@ VALUES('Sushi Platter', 15.99, 700);
 
 
 
-/*3.Using a SELECT statement with a WHERE clause, retrieve all meals that have more than 500 calories.*/
+/*1.Using a SELECT statement with a WHERE clause, retrieve all meals that have a price less than €15*/
+SELECT NAME, PRICE FROM MEALS
+WHERE PRICE < 15;
 
+
+/*2.Using a SELECT statement with a WHERE clause, retrieve all ingredients that are vegetarian.*/
+SELECT NAME, VEGETARIAN FROM INGREDIENTS
+WHERE VEGETARIAN;
+
+
+/*3.Using a SELECT statement with a WHERE clause, retrieve all meals that have more than 500 calories.*/
 SELECT * FROM MEALS
 WHERE CALORIES > 500;
 
-/*4.Using a SELECT statement with a WHERE clause, retrieve all meals that have a price between €15 and €16.*/
 
+/*4.Using a SELECT statement with a WHERE clause, retrieve all meals that have a price between €15 and €16.*/
 SELECT * FROM MEALS
 WHERE PRICE >= 15 && PRICE <= 16;
 
-/*5.Using a SELECT statement with a WHERE clause, retrieve all ingredients that are both lactose-free (note lactose FREE) and gluten-free.*/
 
+/*5.Using a SELECT statement with a WHERE clause, retrieve all ingredients that are both lactose-free (note lactose FREE) and gluten-free.*/
 SELECT NAME, LACTOSE_FREE, GLUTEN_FREE FROM INGREDIENTS
 WHERE LACTOSE_FREE && GLUTEN_FREE;
 
-/*6.Using a SELECT statement with a WHERE clause and logical operator(s), retrieve all meals that have a price less than €15 or more than 600 calories.*/
 
+/*6.Using a SELECT statement with a WHERE clause and logical operator(s), retrieve all meals that have a price less than €15 or more than 600 calories.*/
 SELECT * FROM MEALS
 WHERE PRICE < 15 OR CALORIES > 600;
 
-/*7.Using a SELECT statement with a WHERE clause, retrieve all ingredients that are vegan or gluten-free*/
 
+/*7.Using a SELECT statement with a WHERE clause, retrieve all ingredients that are vegan or gluten-free*/
 SELECT NAME, VEGAN, GLUTEN_FREE FROM INGREDIENTS
 WHERE VEGAN OR GLUTEN_FREE;
 
-/*8. Using a SELECT statement with a WHERE clause, retrieve all meals with the name 'Pesto Pasta'*/
 
+/*8. Using a SELECT statement with a WHERE clause, retrieve all meals with the name 'Pesto Pasta'*/
 SELECT NAME FROM MEALS
 WHERE NAME = 'Pesto Pasta';
 
-/*9. Using a SELECT statement with a WHERE clause, retrieve all ingredients that are not lactose-free*/
 
+/*9. Using a SELECT statement with a WHERE clause, retrieve all ingredients that are not lactose-free*/
 SELECT NAME, LACTOSE_FREE FROM INGREDIENTS
 WHERE !LACTOSE_FREE;
 
-/*10. Using a SELECT statement with a WHERE clause and a logical operator, retrieve all meals that have a price more than €20 and less than 800 calories.*/
 
+/*10. Using a SELECT statement with a WHERE clause and a logical operator, retrieve all meals that have a price more than €20 and less than 800 calories.*/
 SELECT * FROM MEALS
 WHERE PRICE > 20 && CALORIES < 800;
