@@ -14,7 +14,7 @@ _ = TO DO
 **_**   Esercizio 5     *(Date, Timestamp, Select Functions)*
 **_**   Esercizio 6     *(Grouping By, Count, Sum)*
 **_**   Esercizio 7     *(Max, Min, Average, Having)*
-**^**   Esercizio 8     *(Alter table, Constraints)*
+**X**   Esercizio 8     *(Alter table, Constraints)*
 **_**   Esercizio 9     *(Primary keys, UPDATE, DELETE FROM, TRUNCATE, DROP TABLE)*
 **_**   Esercizio 10    *(Foreign Keys, INNER JOIN)*
 **_**   Esercizio 11    *(More Joins)*
