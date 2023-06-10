@@ -14,9 +14,8 @@ _ = TO DO
 **_**   Esercizio 5     *(Date, Timestamp, Select Functions)*
 **_**   Esercizio 6     *(Grouping By, Count, Sum)*
 **_**   Esercizio 7     *(Max, Min, Average, Having)*
-**_**   Esercizio 8     *(Setting up MYSQL localy)*
-**_**   Esercizio 9     *(Alter table, Constraints)*
-**_**   Esercizio 10    *(Primary keys, UPDATE, DELETE FROM, TRUNCATE, DROP TABLE)*
-**_**   Esercizio 11    *(Foreign Keys, INNER JOIN)*
-**_**   Esercizio 12    *(More Joins)*
-**_**   Esercizio 13    *(Joins outside of SELECT, Indexing and Redundant storage)*
+**^**   Esercizio 8     *(Alter table, Constraints)*
+**_**   Esercizio 9     *(Primary keys, UPDATE, DELETE FROM, TRUNCATE, DROP TABLE)*
+**_**   Esercizio 10    *(Foreign Keys, INNER JOIN)*
+**_**   Esercizio 11    *(More Joins)*
+**_**   Esercizio 12    *(Joins outside of SELECT, Indexing and Redundant storage)*
