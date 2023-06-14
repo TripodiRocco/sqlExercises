@@ -8,7 +8,7 @@ _ = TO DO
 ! = EXERCISE CORRECT**
 
 **<pre>X**   Esercizio 1     *(Create table)*
-**X**   Esercizio 2     *(Insert and Select)*
+**!**   Esercizio 2     *(Insert and Select)*
 **X**   Esercizio 3     *(Where)*
 **X**   Esercizio 4     *(Create Table As, Insert via query, Create View)*
 **^**   Esercizio 5     *(Date, Timestamp, Select Functions)*
