@@ -9,7 +9,11 @@ CREATE TABLE INGREDIENTS (
 );
 
 INSERT INTO INGREDIENTS(NAME)
-VALUES('Eggs', 'Bread', 'Beef Patty', 'Lettuce', 'Yoghurt');
+VALUES('Eggs'),
+('Bread'),
+('Beef Patty'),
+('Lettuce'),
+('Yoghurt');
 
 /* */
 
