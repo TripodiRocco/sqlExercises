@@ -1,3 +1,4 @@
+# Replicate the top 5 joins found in the picture sql-joins.
 
 CREATE TABLE PERSONA (
   ID_PERSONA INT PRIMARY KEY,
