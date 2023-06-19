@@ -37,7 +37,7 @@ SELECT COUNT(CALORIES) AS HIGH_CALORIES_MEALS FROM MEALS_TABLE
 WHERE CALORIES > 500
 GROUP BY NAME;
 
-/* 4.Using a SELECT statement with a WHERE clause and SUM function, retrieve the total price for all meals that have a name containing the letter 'S'. */
+/* 4.Using a SELECT statement with a WHERE clause and SUM function, retrieve the total price for all meals that have a name containing the letter 'S'. You can find items that start with the letter s with the following where clause WHERE LOWER(NAME) LIKE '%s%'; */
 SELECT SUM(PRICE) AS PARTICULAR_SUM
 FROM MEALS_TABLE
 WHERE LOWER(NAME) LIKE '%s%';
