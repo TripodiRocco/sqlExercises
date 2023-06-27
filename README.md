@@ -16,5 +16,5 @@ _ = TO DO
 **X**   Esercizio 7     *(Max, Min, Average, Having)*
 **X**   Esercizio 8     *(Alter table, Constraints)*
 **X**   Esercizio 9     *(Primary keys, UPDATE, DELETE FROM, TRUNCATE, DROP TABLE)*
-**_**   Esercizio 10    *(Foreign Keys, INNER JOIN)*
+**X**   Esercizio 10    *(Foreign Keys, INNER JOIN)*
 **X**   Esercizio 11    *(More Joins)*
